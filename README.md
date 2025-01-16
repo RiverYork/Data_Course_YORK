@@ -4,3 +4,9 @@ FINALLY
 This course is going to be fun
 Time for files
 I added the files
+Exercises File
+Readings File
+Code_Examples
+Assignments
+I know what I am doing now yay
+I know what I am doing now
