@@ -11,3 +11,4 @@ Assignments
 I know what I am doing now yay
 I know what I am doing now
 I am testing myself and if I can remember how to do it
+I have updated my repo to add the new notes and assignments since last time.
