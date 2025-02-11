@@ -1,0 +1,7 @@
+I work at the TSSD waste water treatment plant. So, I have access to some interesting data.
+I am planning on doing my final project using data that I personally collected last summer on
+Utah Lake. We went out weekly for a couple of months so I have lots of data.
+We took samples and ran numerous tests on the data. I am not sure what specific data I want to dive into,
+I am still trying to decide which factors seem most important to me and the research.
+I also found the weather data on NOAA for those days as well so I could relate it to the weather.
+
