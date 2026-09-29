@@ -151,29 +151,50 @@ dbinom(50,100,.5) # probability of getting exactly 50 heads out of 100 coin flip
 
 
 
+
+
+
+
+
 # YOUR REMAINING HOMEWORK ASSIGNMENT (Fill in with code) ####
 
 # 1.  Get a subset of the "iris" data frame where it's just even-numbered rows
 
 seq(2,150,2) # here's the code to get a list of the even numbers between 2 and 150
 
+##load tidy verse
+library(tidyverse)
+
+##new subset w even numbers
+iris_subset = iris[seq(2,150,2),]
 
 
 # 2.  Create a new object called iris_chr which is a copy of iris, except where every column is a character class
 
+iris_chr = as.character(iris)
 
 
 # 3.  Create a new numeric vector object named "Sepal.Area" which is the product of Sepal.Length and Sepal.Width
 
+##making my vectors
+Length = iris$Sepal.Length
+Width = iris$Sepal.Width
+
+##finding product and making into a data frame
+Sepal.Area = Length * Width
 
 
 # 4.  Add Sepal.Area to the iris data frame as a new column
 
+iris$Sepal.Area = Sepal.Area
 
 
 # 5.  Create a new dataframe that is a subset of iris using only rows where Sepal.Area is greater than 20 
       # (name it big_area_iris)
 
+##piped to filter it out easily
+big_area_iris = iris %>%
+  filter(Sepal.Area > 20)
 
 
 # 6.  Upload the last numbered section of this R script (with all answers filled in and tasks completed) 
