@@ -1,0 +1,9 @@
+2. I am thinking of using some data that I helped collect on Utah Lake. I think it would be interesting to include the temperature and see if there was any correlation to the results and weather.
+
+3. All of the lake data I personally collected and ran analysis on. The temperature data is what the daily average, min and max were from a data collection point that was for the actual air temp and not the water...
+
+My data is all in excel sheets and cleanly organized hopefully it will require minimal cleaning to use.
+
+I am thinking of basically correlating everything to each other separately to see if there is a correlation of any of the results.
+
+Tests ran: phosphorus, ammonia, nitrate, nitrite, TSS, TDS, pH, OPR, and a few others.
