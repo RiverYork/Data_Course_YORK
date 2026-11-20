@@ -17,6 +17,7 @@ library(tidyverse)
 utah = read.csv("./Utah_Religions_by_County.csv")
 
 # subset to only counties with buddhists observed
+
 buddhist = utah[utah$Buddhism.Mahayana > 0,]
 
 # order rows by population (descending)
